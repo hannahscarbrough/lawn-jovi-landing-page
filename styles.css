@@ -135,13 +135,13 @@ h2 {
     font-size: 25px;
     font-weight: lighter;
     line-height: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     margin-top: 20px;
     color: white;
 }
 
 .quote b {
-    padding-bottom: 20px;
+    padding-bottom: 35px;
     padding-right: 10px;
     text-align: right;
     font-size: 25px;
@@ -156,4 +156,32 @@ h2 {
 .media-info {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.media-info h3 {
+    font-size: 40px;
+}
+
+.media-info a {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.media-info a:hover {
+    color: gray;
+}
+
+.social-info {
+    position: relative;
+    left: -80px;
+}
+
+.contact-info {
+    position: relative;
+    right: -80px;
 }
