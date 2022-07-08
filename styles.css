@@ -39,6 +39,10 @@
     font-size: 20px;
 }
 
+.navlinks a:hover {
+    color: gray;
+}
+
 /* Navbar */
 
 /* First Section */
@@ -48,8 +52,7 @@
     align-items: center;
     justify-content: center;
     padding: 90px;
-    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cutting-the-grass-1644854383.jpg);
-    background-color: gray;
+    background-image: url(https://images.pexels.com/photos/413195/pexels-photo-413195.jpeg?cs=srgb&dl=pexels-pixmike-413195.jpg&fm=jpg);
 }
 
 .intro-text {
@@ -62,8 +65,9 @@
 }
 
 .intro-text p {
+    color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 40px;
     margin-top: 0;
     position: relative;
@@ -71,6 +75,7 @@
 }
 
 h1 {
+    color: white;
     font-size: 48px;
     margin-bottom: 20px;
     position: relative;
@@ -82,7 +87,6 @@ h1 {
     height: 400px;
     width: 400px;
     border-radius: 10px;
-    border: 2px solid black;
 }
 
 /* First Section */
@@ -158,10 +162,13 @@ h2 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding: 50px 50px;
 }
 
 .media-info h3 {
     font-size: 40px;
+    position: relative;
+    top: -20px;
 }
 
 .media-info a {
@@ -170,6 +177,7 @@ h2 {
     justify-content: center;
     text-decoration: none;
     color: black;
+    margin-bottom: 10px;
 }
 
 .media-info a:hover {
@@ -178,10 +186,20 @@ h2 {
 
 .social-info {
     position: relative;
-    left: -80px;
+    left: -40px;
 }
 
 .contact-info {
     position: relative;
-    right: -80px;
+    right: -40px;
+}
+
+/* Social Contact */
+
+/* Footer */
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
 }
