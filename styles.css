@@ -52,7 +52,9 @@
     align-items: center;
     justify-content: center;
     padding: 90px;
-    background-image: url(https://images.pexels.com/photos/413195/pexels-photo-413195.jpeg?cs=srgb&dl=pexels-pixmike-413195.jpg&fm=jpg);
+    background-image: url(https://meadowscastlerock.com/wp-content/uploads/2015/03/green-grass.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .intro-text {
