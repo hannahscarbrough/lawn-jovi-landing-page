@@ -52,7 +52,7 @@
     align-items: center;
     justify-content: center;
     padding: 90px;
-    background-image: url(https://meadowscastlerock.com/wp-content/uploads/2015/03/green-grass.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(https://meadowscastlerock.com/wp-content/uploads/2015/03/green-grass.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -89,6 +89,7 @@ h1 {
     height: 400px;
     width: 400px;
     border-radius: 10px;
+    box-shadow: 1px 5px 15px 5px rgba(0, 0, 0, 0.58);
 }
 
 /* First Section */
@@ -133,7 +134,7 @@ h2 {
 .quote {
     display: flex;
     flex-direction: column;
-    background-color: rgb(77, 189, 77);
+    background-color: rgb(40, 120, 40);
     padding: 0 150px;
 }
 
